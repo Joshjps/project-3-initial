@@ -1,5 +1,6 @@
 package com.example.iterable;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
@@ -38,9 +39,9 @@ public class BagManager {
         System.out.println("Bag size: " + stringBag.size());
         System.out.println();
 
-        Iterator<String> iter = stringBag.iterator();
+       Iterator<String> iter = stringBag.iterator();
         while (iter.hasNext()) {
-            System.out.println(iter.next());
+         System.out.println(iter.next());
         }
     }
 }
