@@ -7,32 +7,34 @@ import java.util.*;
 
 public class Bag<T> implements Container<T> {
 
-        private ArrayList<T> Bag;
+    private ArrayList<T> bag;
 
-        public Bag(){
-            Bag = new ArrayList<>();
-        }
-
+    public Bag() {
+        bag = new ArrayList<>();
+    }
 
 
     @Override
     public boolean isEmpty() {
-        return Bag.isEmpty();
+        return bag.isEmpty();
     }
 
     @Override
     public int size() {
-        return Bag.size();
+        return bag.size();
     }
 
     @Override
     public void add(T item) {
-        Bag.add(item);
+        bag.add(item);
     }
+
+
+
 
     @Override
     public Iterator<T> iterator() {
-           return null;
-    }
-    }
+        return bag.iterator();
 
+    }
+}

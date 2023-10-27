@@ -41,7 +41,7 @@ public class BagManager {
 
        Iterator<String> iter = stringBag.iterator();
         while (iter.hasNext()) {
-         System.out.println(iter.next());
+        System.out.println(iter.next());
         }
     }
 }
